@@ -1,0 +1,17 @@
+from classe import Calculadora
+
+valor1 = int(input('Informe o 1º Valor: '))
+valor2 = int(input('Informe o 2º Valor: '))
+calc = Calculadora(valor1, valor2)
+print('Soma: ')
+print(calc.soma())
+print('---')
+print('Substração: ')
+print(calc.sub())
+print('---')
+print('Multiplicação: ')
+print(calc.mult())
+print('---')
+print('Divisão: ')
+print(calc.div())
+print('--- ')
