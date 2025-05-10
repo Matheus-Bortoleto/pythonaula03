@@ -3,5 +3,5 @@ class Produto:
         self.descricao = descricao
         self.preco = preco
 
-    def verProduto():
+    def verProduto(self):
         print(f'{self.descricao} por apenas R${self.preco:.2f}')
